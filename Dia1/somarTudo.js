@@ -7,3 +7,21 @@ function somarTudo([a, b]){
         
     }
 }
+
+
+
+// function sumAll(array) {
+//     var sum = 0;
+//     if(array[0] > array[1]) {
+//       var aux = array[0];
+//       array[0] = array[1];
+//       array[1] = aux;
+//     }
+    
+//     for(var i = array[0]; i <= array[1]; i++) {
+//       sum = sum + i;
+//     }
+  
+//     console.log(sum);
+//   }
+  
