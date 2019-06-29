@@ -3,8 +3,8 @@ var exibir = document.querySelector('div.imagem');
 
 var frutas = [
     {
-        fruta: "uva",
-        imagem: "imguva"
+        fruta: "laranja",
+        imagem: "laranja.png"
     },
 
     {
@@ -23,7 +23,8 @@ var frutas = [
 input.addEventListener('keyup', function(){
     for(item of frutas){
         if(item.fruta == input.value){
-            console.log(item.imagem)
+            console.log(item.imagem);
+            exibir.innerHTML ="<img src=" + item.imagem + " />";
         }
     }
 })
