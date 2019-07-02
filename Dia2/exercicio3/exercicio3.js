@@ -9,14 +9,25 @@ var frutas = [
 
     {
         fruta: "banana",
-        imagem: "imgbanana"
+        imagem: "banana.png"
     },
 
     {
         fruta: "pera",
-        imagem: "imgpera"
+        imagem: "pera.png"
+    },
+
+    {
+        fruta: "uva",
+        imagem: "uva.png"
+    },
+
+    {
+        fruta: "abacaxi",
+        imagem: "abacaxi.png"
     }
 ];
+
 
 
 
@@ -27,6 +38,7 @@ input.addEventListener('keyup', function(){
             exibir.innerHTML ="<img src=" + item.imagem + " />";
         }
     }
+    
 })
 
 

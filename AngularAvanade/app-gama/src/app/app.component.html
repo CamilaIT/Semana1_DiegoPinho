@@ -1,0 +1,26 @@
+<div class="container">
+
+  <i>{{ title }}</i>
+
+  <div *ngIf="title == 'Camila Rodrigues' ">
+      <h2>Mudou nome</h2>
+  </div>
+</div>
+
+
+
+
+<button (click)="novoItem()" class="btn btn-warning">Nova fruta na lista</button>
+
+<ul>
+  <li *ngFor="let item of items">
+    <app-todo-item [data]="item"></app-todo-item>
+  </li>
+</ul>
+
+<app-contador></app-contador>
+
+
+
+
+
